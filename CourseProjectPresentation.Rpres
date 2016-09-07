@@ -1,0 +1,61 @@
+Motor Trend Car Data by MPG
+========================================================
+author: Christopher Hardison
+date: September 6, 2016
+autosize: true
+transition: rotate
+width: 1440
+height: 900
+
+<small>
+Course Project<br>
+Developing Data Products<br>
+Coursera Data Science Specialization<br>
+</small>
+
+
+
+Description of Application
+========================================================
+type: section
+
+Presenting the perfect way to select the right car. This application allows the user to see the cars that have a MPG rating within the values they configure by using the slider inputs. There is one slider for minimum MPG and one for maximum MPG. Cars with a rating that falls between the selected values for those are displayed.
+
+
+![Application View](AppView.png)
+
+
+
+App Location
+========================================================
+type: section
+
+
+- The applicaion can be accessed online at:
+<https://crhardison.shinyapps.io/Developing_Data_Products_Course_Project/>
+
+- The code for the application can be found on GitHub at:
+<https://github.com/crhardison/Developing-Data-Products-Course-Project>
+
+
+Data Source
+========================================================
+type: section
+
+
+The data source for the application is the mtcars dataset within the R datasets package. Here we show a sample of the data.
+
+```{r}
+head(mtcars)
+```
+
+Data Source Cont.
+========================================================
+type: section
+
+Here we see the complete list of cars which the app can display.
+
+```{r}
+rownames(mtcars)
+```
+
